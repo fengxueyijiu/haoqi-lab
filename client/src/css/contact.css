@@ -1,0 +1,110 @@
+@media(max-width:600px){
+  .contact-wrap{
+
+  }
+}
+
+
+.contact-wrap{
+   height:79.3vh;
+  padding: 14px;
+  overflow-y: scroll;
+  flex-grow: 1;
+}
+
+.page-head{
+  max-width: 720px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.page-head h1{
+  padding: 20px 0;
+  font-size: 1.4rem;
+  line-height: 100%;
+  font-weight: normal;
+  color: #212121;
+}
+.page-head p{
+  font-weight: normal;
+  font-size: 0.8rem;
+  line-height: 1.8;
+  color: #757575
+}
+
+.subnav{
+  width: 100%;
+  margin: 0 auto;
+}
+.subnav ul{
+  list-style: none;
+}
+.subnav ul li{
+  width: 50%;
+  float: left;
+  text-align: center;
+  background-color: #00bcd4;
+}
+.subnav ul li :hover{
+  background-color: #0097a7;
+}
+.subnav ul .active{
+  background-color: #0097a7;
+}
+.subnav ul li a{
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 100%;
+  padding: 16px 0 18px 0;
+  text-decoration: none;
+  color: #fff;
+}
+.contact {
+  margin-top: 20px;
+}
+
+.contact img{
+  width: 100%;
+  height: 110vw;
+}
+.contact p{
+  line-height: 1.8;
+  color: #757575;
+  font-size: 1rem;
+}
+.article {
+  max-width: 720px;
+}
+.article h1{
+  padding: 20px 0;
+  font-size: 1.4rem;
+  line-height: 100%;
+  font-weight: normal;
+  color: #212121;
+}
+.article p{
+  line-height: 1.8;
+  color: #757575
+}
+@media (min-width: 600px) {
+  .wrap{
+    display: block;
+  }
+}
+@media (min-width: 800px) {
+  .contact{
+    display: flex;
+    padding: 20px 40px
+  }
+  .contact img{
+    width: 40%;
+    height: 500px;
+  }
+  .contact .phone {
+    margin-top: 80px;
+    margin-left: 120px;
+  }
+  .article{
+    margin: 0 auto;
+  }
+}
